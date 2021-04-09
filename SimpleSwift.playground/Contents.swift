@@ -1,11 +1,9 @@
 import Foundation
 
 print("Welcome to the UW Calculator Playground")
-
-/* FUNTIONS USING INT
  
 func calculate(_ args: [String]) -> Int {
-     handle count, avg, factorial
+    // handle count, avg, factorial
     switch args[args.count - 1] {
     case "count":
         return args.count - 1
@@ -32,7 +30,7 @@ func calculate(_ args: [String]) -> Int {
         break
     }
 
-     handle expressions
+    // handle expressions
     var operation = "+"
     var value = 0
     for arg in args {
@@ -64,8 +62,6 @@ func calculate(_ args: [String]) -> Int {
 func calculate(_ arg: String) -> Int {
     return calculate(arg.components(separatedBy: " "))
 }
- 
-*/
 
 // -------------------------------------------
 // All of these expressions should return true
